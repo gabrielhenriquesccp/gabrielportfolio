@@ -1,0 +1,224 @@
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+
+    <!-- SEO (Search Engine Optimization) -->
+    <meta name="description" content="Descrição do site" />
+    <meta name="keywords" content="palavras, chave" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <title>Iniciando projeto com jQuery</title>
+
+    <!-- FONTES DE SIMBOLOS-->
+    <link rel="stylesheet" type="text/css" href="css/all.min.css" />
+
+    <!-- RESET CSS -->
+    <link rel="stylesheet" type="text/css" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css" />
+
+    <!-- FONTE PERSONALIZADA -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400&display=swap" rel="stylesheet">
+
+    <!-- CSS DO LAYOUT (PRINCIPAL) -->
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
+
+</head>
+
+<body>
+
+    <div>
+        <header>
+        <div>
+        <nav class="nav1">
+            <div class="container">
+                        <div class="fleft tcenter w40">
+                            <h1 id="logotipo">
+                                <a href="#" title="Gabriel Henrique">
+                        
+                                <p><img src="images/Ativo 2.png"></p>
+                
+                                </a>
+                            </h1>
+                        </div>
+                            <div class="w70 fright">
+                                    <ul class="menu horizontal container menusec">
+                                        <li class="fleft pdd-25" id="home">
+                                            <a href="##home" title="Home">Home</a>
+                                        </li>
+                                        <li class="fleft pdd-25">
+                                            <a href="#" title="Sobre Mim">Sobre Mim</a>
+                                             <ul>
+                                                 <li><a href="##conhecimentos" title="Conhecimentos" class="fleft pdd-25">Conhecimentos</a></li>
+                                                 <li><a href="##portfolio" title="Aprendizagem" class="fleft pdd-25">Aprendizagem</a></li>
+                                                 <li><a href="##qualidades" title="Qualidades" class="fleft pdd-25">Qualidades</a></li>
+                                             </ul>
+                                        </li>
+                                        <li class="fleft pdd-25">
+                                            <a href="##contacte-me" title="Contato">Contato</a>
+                                        </li>
+                                    </ul>
+                <div class="clear"></div>
+            
+        </nav>
+    </div>
+        </header>
+        <main>
+            <div class="fundo">
+                
+            </div>
+            <section class="tcenter" id="sobre-mim">
+                
+                 
+                <article>
+                    <div class="tcenter container">
+                        <h2>Sobre Mim</h2>
+                        <div class="tcenter container fleft mrg-50">
+                            <h3>Gabriel Henrique</h3>
+                            <p>Tenho 22 anos busco uma vaga no mercado de trabalho 
+                            <p>onde posso colocar minhas habilidades em prática com profissionalismo,respeito,competência</p>
+                            <p>e aplicar base de minhas experiências e meu aprendizado em um emprego que me agregue novos conhecimentos</p>
+                            <p>e me possibilite um crescimento profissional e pessoal atualmete cursando técnico em informática no senac osasco </p>
+                            <!--<p><a href="#">Leia mais...</a></p>-->
+                        </div>
+                        <!--<div class="fright w50">Vídeo</div>-->
+                        <div class="clear"></div>
+                    </div>
+                </article>
+            </section>
+            <section id="conhecimentos">
+                <article class="tcenter">
+                    <h2>Conhecimentos</h2>
+                    <p>área de jogos virtuais e videos para internet</p>
+                    <p>bons conhecimentos em informática</p>
+                    <p>atendimento as pessoas telefonico,organização de documentos</P> 
+                    <p>design gráfico pacote office</p>
+                </article>
+            </section>
+            <section id="portfolio">
+                <article class="back1">
+
+                    <h2 class=" tcenter h2 mrg-50">Aprendizagem</h2>
+
+                    <div class="container" id="mix-container">
+
+                        <div class="container">
+                            <button type="button" data-filter="all">All</button>
+                            <button type="button" data-filter=".category-a">Category A</button>
+                            <button type="button" data-filter=".category-b">Category B</button>
+                            <button type="button" data-filter=".category-c">Category C</button>
+
+                            <!--<button type="button" data-sort="order:asc">Ascending</button>
+                            <button type="button" data-sort="order:descending">Descending</button>
+                            <button type="button" data-sort="random">Random</button>-->
+                        </div>
+
+                        <div class="mix category-a w25 fleft" data-order="1">
+                            <img src="/images/imagem para printar1.png" width="100%">
+                        </div>
+                        <div class="mix category-b w25 fleft" data-order="2">
+                            <img src="/images/Win101.jpg" width="100%">
+                        </div>
+                        <div class="mix category-b category-c w25 fleft" data-order="3">
+                            <img src="/images/WinServer10.jpg" width="100%">
+                        </div>
+                        <div class="mix category-a category-d w25 fleft" data-order="4">
+                            <img src="/images/WinServer111.jpg" width="100%">
+                        </div>
+                        <div class="mix category-c w25 fleft" data-order="5">
+                            <img src="/images/WinServer312.jpg" width="100%">
+                        </div>
+                        <div class="mix category-a w25 fleft" data-order="6">
+                                <img src="/images/WinServer414.jpg" width="100%">
+                        <div class="clear"></div>
+                    </div>
+                </article>
+            </section>
+            <section id="qualidades">
+                <article class="tcenter h2 mrg-100">
+                    <h2>Qualidades</h2>
+                    <p>pró ativo</p>
+                    <p>trabalho em equipe</p>
+                    <p>flexibilidade</p>
+
+                </article>
+            </section>
+        </main>
+        <footer id="contacte-me">
+            <h2 class="tcenter">Entre em contato</h2>
+            <div class="tcenter container">
+                <div class="w50 fleft">
+                    <p><strong>SENAC OSASCO</strong></p>
+                    <address>
+                        <a target="_blank" href="https://goo.gl/maps/UZZtXKK32QgDvVRh6">R. Dante Batiston, 248 - Centro
+                            Osasco - SP, 06080-000</a>
+                    </address>
+                    <p><strong>Me ligue</strong></p>
+                    <p><a href="tel:+55113685-1486">(11) 99567-8331</a></p>
+                    <p><strong>Mande-me um e-mail</strong></p>
+                    <p><a href="mailto:ghpp83@gmail.com">ghpp83@gmail.com</a></p>
+                </div>
+                <div class="container w50 tcenter fleft">
+                    Formulário
+                <form>
+                    <label class="w50 fleft">Nome</label> <input id="nomeid" type="text" required="required"></input>
+                    <label class="w50 fleft">E-mail</label> <input id="emailid" type="email" required="required"></input>
+                    <label class="w50 fleft">Telefone</label> <input id="telid" type="tel" required="required"></input>
+                    <label class="w50 fleft">Motivo de contato</label> <input id="mcid" type="text" placeholder="escreva..." required="required"></input>
+                    <input class="w50" type="submit" onclick="enviar();" value="enviar">
+                </form>
+                </div>
+                <div class="clear"></div>
+            </div>
+            <!--<div>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d17526.335407423314!2d-46.78678449581217!3d-23.534259063746987!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x4619c888290b360c!2sSenac+Osasco!5e0!3m2!1spt-BR!2sbr!4v1559591081771!5m2!1spt-BR!2sbr"
+                    width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+            </div>-->
+            <a id="subirTopo">
+                <br> inicio
+            </a>
+        </footer>
+    </div>
+
+    <!-- INCLUDE DO JQUERY-->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+
+    <!-- COMPATIBILIZAR ELEMENTOS MODERNOS DO NAVEGADOR "HTML5" -->
+    <script src="js/modernizr-custom.js"></script>
+
+    <!-- API ANCORA-->
+    <script type="text/javascript" src="js/jquery.arbitrary-anchor.js"></script>
+
+    <script src="js/mixitup.min.js"></script>
+
+    <!-- INSERE SCRIPT PERSONALIZADO -->
+    <script src="js/main.js"></script>
+
+    <script type="text/javascript">
+        jQuery(document).ready(function(){
+        
+        jQuery("#subirTopo").hide();
+        
+        jQuery('a#subirTopo').click(function () {
+                 jQuery('body,html').animate({
+                   scrollTop: 0
+                 }, 800);
+                return false;
+           });
+        
+        jQuery(window).scroll(function () {
+                 if (jQuery(this).scrollTop() > 300) {
+                    jQuery('#subirTopo').fadeIn();
+                 } else {
+                    jQuery('#subirTopo').fadeOut();
+                 }
+             });
+        });
+        </script>
+
+
+</body>
+
+</html>
